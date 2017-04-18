@@ -1,0 +1,67 @@
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+.popup{
+    text-align:center;
+}
+
+.popup img{
+    width:50%;
+}
+
+.circle-image{
+    border-radius: 50% !important;
+    width: 50%;
+}
+
+#welcome{
+    float:left;
+}
+body {
+    font-family: sans-serif;
+    color: grey;
+}
+
+
+/* . indicates class selector */
+
+.top-page {
+    text-align: center;
+    width: 50%;
+    margin: 10% 15% 0% 15%;
+    /* top right bottom left */
+    padding: 5%;
+}
+
+#full-page {
+    height: 100%;
+}
+
+#condense-bottom {
+    margin-bottom: -1rem;
+}
+#condense-top-bottom {
+    /*margin-top: 0rem;*/
+    /*margin-bottom: -0.1rem;*/
+}
+
+.smaller-card{
+    width:50% !important;
+}
+
+#centerform{
+  margin-left:20%;
+}
+
+#loginbutton1{
+    min-height: 850px;
+}
